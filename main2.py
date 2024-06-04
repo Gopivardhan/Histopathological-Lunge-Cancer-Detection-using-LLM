@@ -5,7 +5,7 @@ import numpy as np
 import openai
 
 # Load your model
-Test_model = load_model("20230918-17581695059896-98%-predict accuracy.h5")  # your model file
+Test_model = load_model(" ")  # your model file
 class_names = ["Adenocarcinoma", "Benign_Tissue", "Squamous cell"]  # actual class names
 
 # Set your OpenAI API key
