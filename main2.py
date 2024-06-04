@@ -9,7 +9,7 @@ Test_model = load_model("20230918-17581695059896-98%-predict accuracy.h5")  # yo
 class_names = ["Adenocarcinoma", "Benign_Tissue", "Squamous cell"]  # actual class names
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "enter your api key here"
 
 def predict(image_path):
     # Load and preprocess the image
